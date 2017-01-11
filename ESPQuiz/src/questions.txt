@@ -1,0 +1,14 @@
+How much is an apple?
+1
+An apple should cost $3.
+$3
+$5
+$7
+$9
+How much is a banana?
+3
+A banana should cost $7.
+$3
+$5
+$7
+$9

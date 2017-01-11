@@ -1,3 +1,4 @@
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,17 +18,25 @@ public class QuizQuestions {
 
     private List<QuizQuestion> addQuizQuestions(){
         List<QuizQuestion> quizQuestions = new ArrayList<>();
+        List<String> Lines = new ArrayList<>();
+        String thisLine = null;
+        try{
+            InputStream in = QuizQuestions.class.getResourceAsStream("questions.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
+            while ((thisLine = reader.readLine()) != null) {
+                Lines.add(thisLine);
+            }
+        }catch(UnsupportedEncodingException u){
+            u.printStackTrace();
+        }catch (IOException i){
+            i.printStackTrace();
+        }
 
-        QuizQuestion q1 = new QuizQuestion("How much is an apple?",0,
-                "An apple should cost $3.",
-                "$3","$5","$7","$9");
-        quizQuestions.add(q1);
-
-        QuizQuestion q2 = new QuizQuestion("How much is a banana?",2,
-                "A banana should cost $7",
-                "$3","$5","$7","$9");
-        quizQuestions.add(q2);
-        //add questions
+        for(int i = 0; i < (Lines.size()/7); i++){
+            QuizQuestion q = new QuizQuestion(Lines.get(i*7),Integer.parseInt(Lines.get(i*7+1))-1,Lines.get(i*7+2),Lines.get(i*7+3),Lines.get(i*7+4),
+                    Lines.get(i*7+5), Lines.get(i*7+6));
+            quizQuestions.add(q);
+        }
 
         quizQuestions = shuffling(quizQuestions);
         //shuffle the list
