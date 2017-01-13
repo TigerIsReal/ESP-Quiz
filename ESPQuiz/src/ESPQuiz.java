@@ -117,7 +117,7 @@ public class ESPQuiz extends JFrame implements ActionListener {
                 lb1.setText("Score: " + score + "                   ESP Quiz                    Time Left: " + t);  //reload time count panel
                 refresh();  //load questions
                 prepQuestions();  // reload questions
-                makeQuestions();
+                makeQuestions();  // make questions
                 p2.repaint();  //repaint question panel
                 finished = false;  // turn finished to false
             } else {  // if the user wants to quit
@@ -141,18 +141,19 @@ public class ESPQuiz extends JFrame implements ActionListener {
         setLocationRelativeTo(null);  //set location
 
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);  //set close operation
-        addWindowListener(new WindowAdapter() {
+        addWindowListener(new WindowAdapter() {  //override windowClosing method
             @Override
-            public void windowClosing(WindowEvent e) {
-                JFrame frame = (JFrame)e.getSource();
-                tim.stop();
-                Object[] options = {"Stay!", "Don't Leave!"};
+            public void windowClosing(WindowEvent e) {  //on closing the window
+                JFrame frame = (JFrame)e.getSource();  //get current frame
+                tim.stop();  //stop time
+                Object[] options = {"Stay!", "Don't Leave!"};  //make options
                 int quit = JOptionPane.showOptionDialog(frame,"Are you sure you want to quit? :(","ESP needs you!",JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE,null,options,options[0]);
+                //make dialog
                 if(quit == 1){
-                    System.exit(0);
+                    System.exit(0);  //exit
                 }
                 else{
-                    tim.start();
+                    tim.start();  //restart timer
                 }
             }
         });
@@ -223,12 +224,12 @@ public class ESPQuiz extends JFrame implements ActionListener {
                 }
             }
 
-            if(totalTime < 49){
+            if(totalTime < 49){   //time penalty
                 totalTime++;
             }else if(totalTime == 49){
                 totalTime++;
                 score--;
-                totalTime = 0;
+                totalTime = 0;  //take away 1 mark every 50 seconds
             }
         });
 
