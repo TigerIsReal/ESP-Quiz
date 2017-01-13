@@ -7,6 +7,7 @@ import java.util.Random;
 /**
  * Created by tiger on 2016-12-19.
  */
+
 public class QuizQuestions {
 
     private List<QuizQuestion> quizQuestions;
@@ -19,22 +20,20 @@ public class QuizQuestions {
     private List<QuizQuestion> addQuizQuestions(){
         List<QuizQuestion> quizQuestions = new ArrayList<>();
         List<String> Lines = new ArrayList<>();
-        String thisLine = null;
+        String thisLine;
         try{
             InputStream in = QuizQuestions.class.getResourceAsStream("questions.txt");
             BufferedReader reader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
             while ((thisLine = reader.readLine()) != null) {
                 Lines.add(thisLine);
             }
-        }catch(UnsupportedEncodingException u){
-            u.printStackTrace();
-        }catch (IOException i){
+        } catch (IOException i){
             i.printStackTrace();
         }
 
-        for(int i = 0; i < (Lines.size()/7); i++){
-            QuizQuestion q = new QuizQuestion(Lines.get(i*7),Integer.parseInt(Lines.get(i*7+1))-1,Lines.get(i*7+2),Lines.get(i*7+3),Lines.get(i*7+4),
-                    Lines.get(i*7+5), Lines.get(i*7+6));
+        for(int i = 0; i < (Lines.size()/8); i++){
+            QuizQuestion q = new QuizQuestion(Lines.get(i*8),Integer.parseInt(Lines.get(i*8+1))-1,Lines.get(i*8+2),Lines.get(i*8+3),Lines.get(i*8+4),
+                    Lines.get(i*8+5), Lines.get(i*8+6));
             quizQuestions.add(q);
         }
 

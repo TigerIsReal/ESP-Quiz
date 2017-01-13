@@ -1,14 +1,80 @@
-How much is an apple?
+Which of the following statements about Life Cycle Assessment is <u>FALSE</u>?
+2
+LCA is useful for comparing design alternatives. It is concerned with the environmental impacts, and it is also used by Bank of Canada to compare the environmental impacts of cotton-based paper bank notes to bank notes made using polymer. However, LCA DO care about disposal of the design.
+LCA is a method for analyzing the environmental impacts and costs associated with a design, which can be useful for comparing design alternatives.
+LCA is concerned with the environmental impacts associated with the acquisition and processing of raw materials and the distribution and use of the design, but not with disposal of the design.
+LCA could be used by the Bank of Canada to compare the environmental impacts of cotton-based paper bank notes to bank notes made using a polymer.
+Two different LCAs can yield two different results even when both LCAs are used to compare cloth diapers with disposable diapers.
+---
+Students in APS111 who texted in answers to Top Hat questions but who were not in lecture were entered in the Student Participation Incentive Program and were eligible to be randomly selected for a $10 iTunes card or $10 Tim Card. Which of the following statements is TRUE about the behaviour of these students:
 1
-An apple should cost $3.
-$3
-$5
-$7
-$9
-How much is a banana?
+You know what it should be :)
+The behaviour was legal and ethical.
+The behaviour was legal, but unethical.
+The behaviour was illegal, but ethical.
+The behaviour was illegal and unethical.
+---
+Which of the following statements about applying Triple Bottom Line to the Temporary Emergency Cold Weather Protection for the Homeless is <u>TRUE</u>?
+1
+Triple Bottom Line analysis can be applied, but is not mandatory. Good to do it though.
+Triple Bottom Line analysis should be applied to the Temporary Emergency Cold Weather Protection for the Homeless to demonstrate the sustainability of the design.
+Triple Bottom Line analysis does not need to be applied to the Temporary Emergency Cold Weather Protection for the Homeless because the design has no environmental impacts.
+Triple Bottom Line analysis cannot be applied to the Temporary Emergency Cold Weather Protection for the Homeless because it is not possible to quantify the social benefits of the design.
+Triple Bottom Line analysis must be applied to the Temporary Emergency Cold Weather Protection for the Homeless otherwise the client and the local community will not understand the benefits of the design.
+---
+The City of Toronto’s Municipal Licensing and Standards department is responsible for issuing licenses for a range of businesses, such as food trucks, nightclubs, and retail stores, and for enforcing the City’s by-laws to ensure that the businesses are complying with them. Which of the following statements about City of Toronto by-laws is <u>FALSE</u>?
+4
+John Tory is the mayor of Toronto.
+By-laws are true laws, so Toronto businesses must comply with them.
+If a by-law conflicts with a government of Canada regulation, the regulation takes precedence.
+John Tory is the Mayor of Toronto.
+Toronto’s by-laws apply throughout Ontario.
+---
+Which statement about break even analysis and payback period is TRUE?
 3
-A banana should cost $7.
-$3
-$5
-$7
-$9
+It's all about that dang cash my brothers.
+Break even analysis is based on time, and payback period is based on quantity.
+Payback period cannot be applied to government projects.
+Both break even analysis and payback period are based on analysis of profit.
+None of the above.
+---
+Which statement best describes bioaccumulation?
+2
+Not sure why notepad said bioaccumulation was a typo but it is the build-up of persistent toxic substances.
+The entry of persistent toxic substances into the environment.
+The build-up of persistent toxic substances in the fatty tissues of organisms.
+The concentration in the tissues of an organism of substances occurring in the environment.
+The increase in the concentration of a substance in the tissues of organisms at successively higher levels in a food chain.
+---
+In Ontario law, good character comprises three components, including the courage to do what is right, no matter the personal consequences. This component of the Ontario law is also referred to as which of the following?
+3
+Man just come to the lecture. Just come.
+Due diligence.
+Code of Ethics.
+Whistle-blower clause.
+Professional Engineers Ontario.
+---
+Which of the following statements about laws is <u>TRUE</u>?
+1
+Exploit this, gentlemen.
+It is mandatory for design engineers to comply with legislation and regulations, but there is no legal requirement for design engineers to comply with policies or guidelines.
+When there is a federal election and the political party that is elected changes, all federal laws must also change.
+The City of Toronto and the International Organization for Standardization (ISO) can create laws.
+Due diligence is not relevant to engineering designs.
+---
+Life cycle assessment is different from industrial ecology because:
+1
+Life man. Just life. How do you control things after you die.
+Life cycle assessment ends with the final disposal of the product, whereas industrial ecology considers uses for the product after the end of the products service life.
+Life cycle assessment has been applied to many different products and systems, but industrial ecology has only been applied at Kalundborg, Denmark.
+Life cycle assessment applies to products and industrial ecology is restricted to large-scale industries.
+Life cycle assessment identifies waste emissions, whereas industrial ecology identifies waste emissions as inputs to other industrial processes.
+---
+Which one of the following statements about stakeholders is TRUE?
+4
+It's the government bitch.
+For private sector projects, the government has limited interest and little influence.
+Design engineers can ignore the public because they usually have little interest and no influence.
+The Ontario Environmental Assessment Act does not require stakeholder consultation.
+For public sector projects, where the government is the client, the government has high interest and high influence.
+---
