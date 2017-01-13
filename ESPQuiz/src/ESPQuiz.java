@@ -104,6 +104,7 @@ public class ESPQuiz extends JFrame implements ActionListener {
 
         if (questionNum == quizQuestionsList.size() - 1) {  // check if all questions were answered
             finished = true;  // if all answered turn finished to true
+            lb1.setText("Score: " + score + "                   ESP Quiz                    Time Left: " + t);  //reload time count panel
             JOptionPane.showMessageDialog(null, "Your final score: " + score, "Quiz Finished!", JOptionPane.INFORMATION_MESSAGE);
             // tell user their final score
             int result = JOptionPane.showConfirmDialog(null, "Want to start over again?", "", JOptionPane.YES_NO_OPTION);
@@ -193,6 +194,7 @@ public class ESPQuiz extends JFrame implements ActionListener {
                 }
                 if (questionNum == quizQuestionsList.size() - 1) {  //if no question is left
                     finished = true;  //turn finished to true
+                    lb1.setText("Score: " + score + "                   ESP Quiz                    Time Left: " + t);  //reload time count panel
                     JOptionPane.showMessageDialog(null, "Your final score: " + score, "Quiz Finished!", JOptionPane.INFORMATION_MESSAGE);
                     //tell user final score
                     tim.stop();  //stop timer
