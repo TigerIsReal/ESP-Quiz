@@ -1,6 +1,6 @@
 # ESP-Quiz
 
-A nice, lightweighted quiz program for ESP students to study for their finals. Problem set will be updated periodically. More updates coming soon.
+A nice, simple and lightweight quiz program for ESP students to study for their finals. Problem set will be updated periodically. More updates coming soon.
 
 ## Beta feature:
 
